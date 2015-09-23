@@ -1,0 +1,2 @@
+Binary Search Trees (BST) are very useful in maintaining dynamic sorted data.
+If I knew all the incoming data ahead of time, we could put it in an array and sort it once and use binary search in O(log n) time to find things. BST has this binary search algorithm within the structure. However, in a plain BST, if the incoming data is already sorted, The tree becomes O(n) linked list, to prevent this many methods exist. I used an impelementation of AVL tree to keep the tree balanced.
